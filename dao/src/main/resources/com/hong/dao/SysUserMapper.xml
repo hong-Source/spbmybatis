@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hong.dao.system.SysUserMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.hong.model.system.SysUser">
+        <id column="id" property="id" />
+        <result column="username" property="username" />
+        <result column="password" property="password" />
+        <result column="nickname" property="nickname" />
+        <result column="gender" property="gender" />
+        <result column="phoneNumber" property="phoneNumber" />
+        <result column="email" property="email" />
+        <result column="weChat" property="weChat" />
+        <result column="qq" property="qq" />
+        <result column="imageUrl" property="imageUrl" />
+        <result column="birthDay" property="birthDay" />
+        <result column="manager" property="manager" />
+        <result column="description" property="description" />
+        <result column="organization" property="organization" />
+        <result column="department" property="department" />
+        <result column="enable" property="enable" />
+        <result column="remark" property="remark" />
+    </resultMap>
+
+</mapper>

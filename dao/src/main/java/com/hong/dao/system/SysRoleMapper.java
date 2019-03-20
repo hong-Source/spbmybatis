@@ -1,4 +1,4 @@
-package com.hong.dao;
+package com.hong.dao.system;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.hong.model.system.SysRole;

@@ -1,7 +1,7 @@
 package com.hong.service.system.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.hong.dao.SysRoleMapper;
+import com.hong.dao.system.SysRoleMapper;
 import com.hong.model.system.SysRole;
 import com.hong.service.system.SysRoleService;
 import org.springframework.stereotype.Service;
