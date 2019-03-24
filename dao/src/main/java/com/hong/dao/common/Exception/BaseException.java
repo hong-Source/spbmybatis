@@ -1,4 +1,4 @@
-package com.hong.common.Exception;
+package com.hong.dao.common.Exception;
 
 import lombok.Getter;
 import lombok.Setter;

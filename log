@@ -1,212 +1,207 @@
-2019-03-20 14:08:37.794  INFO 9204 --- [main] com.RootApplication                      : Starting RootApplication on KRH05 with PID 9204 (D:\project\IdeaProjects\spbmybatis\controller\api_deploy\target\classes started by g06 in D:\project\IdeaProjects\spbmybatis)
-2019-03-20 14:08:37.797  INFO 9204 --- [main] com.RootApplication                      : No active profile set, falling back to default profiles: default
-2019-03-20 14:08:39.987  INFO 9204 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-03-20 14:08:40.008  INFO 9204 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-03-20 14:08:40.008  INFO 9204 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
-2019-03-20 14:08:40.014  INFO 9204 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-9.0.4\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Tools\Xshell\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk-9.0.4\bin;D:\Tools\Maven\apache-maven-3.3.9\bin;D:\Tools\Git\cmd;D:\Tools\Git\bin;D:\Tools\mysql\mysql-5.7.17-winx64\bin;C:\WINDOWS\System32\OpenSSH\;D:\Tools\nodejs\;E:\Tools\TortoiseGit\bin;C:\Users\G06.KRH\AppData\Local\Microsoft\WindowsApps;.]
-2019-03-20 14:08:40.111  INFO 9204 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-03-20 14:08:40.112  INFO 9204 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2141 ms
-2019-03-20 14:08:40.334  INFO 9204 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2019-03-20 14:08:40.697  INFO 9204 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-03-20 14:08:40.890  INFO 9204 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-03-20 14:08:40.895  INFO 9204 --- [main] com.RootApplication                      : Started RootApplication in 3.69 seconds (JVM running for 4.677)
-2019-03-20 14:11:32.466  INFO 9204 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-03-20 14:11:32.466  INFO 9204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-03-20 14:11:32.471  INFO 9204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
-2019-03-20 15:40:29.790  INFO 12024 --- [main] com.RootApplication                      : Starting RootApplication on KRH05 with PID 12024 (D:\project\IdeaProjects\spbmybatis\controller\api_deploy\target\classes started by g06 in D:\project\IdeaProjects\spbmybatis)
-2019-03-20 15:40:29.794  INFO 12024 --- [main] com.RootApplication                      : No active profile set, falling back to default profiles: default
-2019-03-20 15:40:32.085  INFO 12024 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-03-20 15:40:32.109  INFO 12024 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-03-20 15:40:32.109  INFO 12024 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
-2019-03-20 15:40:32.129  INFO 12024 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-9.0.4\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Tools\Xshell\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk-9.0.4\bin;D:\Tools\Maven\apache-maven-3.3.9\bin;D:\Tools\Git\cmd;D:\Tools\Git\bin;D:\Tools\mysql\mysql-5.7.17-winx64\bin;C:\WINDOWS\System32\OpenSSH\;D:\Tools\nodejs\;E:\Tools\TortoiseGit\bin;C:\Users\G06.KRH\AppData\Local\Microsoft\WindowsApps;.]
-2019-03-20 15:40:32.223  INFO 12024 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-03-20 15:40:32.224  INFO 12024 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2309 ms
-2019-03-20 15:40:32.463  INFO 12024 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2019-03-20 15:40:32.952  INFO 12024 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-03-20 15:40:33.225  INFO 12024 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-03-20 15:40:33.230  INFO 12024 --- [main] com.RootApplication                      : Started RootApplication in 3.997 seconds (JVM running for 4.96)
-2019-03-20 15:41:08.670  INFO 12024 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-03-20 15:41:08.670  INFO 12024 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-03-20 15:41:08.680  INFO 12024 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
-2019-03-20 15:42:22.785  INFO 2320 --- [main] com.RootApplication                      : Starting RootApplication on KRH05 with PID 2320 (D:\project\IdeaProjects\spbmybatis\controller\api_deploy\target\classes started by g06 in D:\project\IdeaProjects\spbmybatis)
-2019-03-20 15:42:22.789  INFO 2320 --- [main] com.RootApplication                      : No active profile set, falling back to default profiles: default
-2019-03-20 15:42:24.915  INFO 2320 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-03-20 15:42:24.936  INFO 2320 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-03-20 15:42:24.937  INFO 2320 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
-2019-03-20 15:42:24.954  INFO 2320 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-9.0.4\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Tools\Xshell\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk-9.0.4\bin;D:\Tools\Maven\apache-maven-3.3.9\bin;D:\Tools\Git\cmd;D:\Tools\Git\bin;D:\Tools\mysql\mysql-5.7.17-winx64\bin;C:\WINDOWS\System32\OpenSSH\;D:\Tools\nodejs\;E:\Tools\TortoiseGit\bin;C:\Users\G06.KRH\AppData\Local\Microsoft\WindowsApps;.]
-2019-03-20 15:42:25.039  INFO 2320 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-03-20 15:42:25.039  INFO 2320 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2185 ms
-2019-03-20 15:42:25.250  INFO 2320 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2019-03-20 15:42:25.636  INFO 2320 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-03-20 15:42:25.859  INFO 2320 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-03-20 15:42:25.863  INFO 2320 --- [main] com.RootApplication                      : Started RootApplication in 3.558 seconds (JVM running for 4.421)
-2019-03-20 16:05:08.104  INFO 11804 --- [main] com.RootApplication                      : Starting RootApplication on KRH05 with PID 11804 (D:\project\IdeaProjects\spbmybatis\controller\api_deploy\target\classes started by g06 in D:\project\IdeaProjects\spbmybatis)
-2019-03-20 16:05:08.106  INFO 11804 --- [main] com.RootApplication                      : No active profile set, falling back to default profiles: default
-2019-03-20 16:05:10.889  INFO 11804 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$22115566] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-03-20 16:05:11.203  INFO 11804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-03-20 16:05:11.241  INFO 11804 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-03-20 16:05:11.242  INFO 11804 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
-2019-03-20 16:05:11.248  INFO 11804 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-9.0.4\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Tools\Xshell\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk-9.0.4\bin;D:\Tools\Maven\apache-maven-3.3.9\bin;D:\Tools\Git\cmd;D:\Tools\Git\bin;D:\Tools\mysql\mysql-5.7.17-winx64\bin;C:\WINDOWS\System32\OpenSSH\;D:\Tools\nodejs\;E:\Tools\TortoiseGit\bin;C:\Users\G06.KRH\AppData\Local\Microsoft\WindowsApps;.]
-2019-03-20 16:05:11.394  INFO 11804 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-03-20 16:05:11.394  INFO 11804 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3221 ms
-2019-03-20 16:05:11.650  INFO 11804 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2019-03-20 16:05:12.277  INFO 11804 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-2019-03-20 16:05:12.430  INFO 11804 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-03-20 16:05:12.646  INFO 11804 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2019-03-20 16:05:12.664  INFO 11804 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2019-03-20 16:05:12.706  INFO 11804 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2019-03-20 16:05:12.966  INFO 11804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-03-20 16:05:12.977  INFO 11804 --- [main] com.RootApplication                      : Started RootApplication in 5.434 seconds (JVM running for 6.314)
-2019-03-20 16:05:20.904  INFO 11804 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-03-20 16:05:20.904  INFO 11804 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-03-20 16:05:20.913  INFO 11804 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
-2019-03-20 16:05:39.204 DEBUG 11804 --- [http-nio-8080-exec-7] c.h.d.s.SysUserMapper.selectList_COUNT   : ==>  Preparing: SELECT count(0) FROM sys_user 
-2019-03-20 16:05:39.221 DEBUG 11804 --- [http-nio-8080-exec-7] c.h.d.s.SysUserMapper.selectList_COUNT   : ==> Parameters: 
-2019-03-20 16:05:39.240 DEBUG 11804 --- [http-nio-8080-exec-7] c.h.d.s.SysUserMapper.selectList_COUNT   : <==      Total: 1
-2019-03-20 16:05:39.242 DEBUG 11804 --- [http-nio-8080-exec-7] c.h.dao.system.SysUserMapper.selectList  : ==>  Preparing: SELECT id,username,password,nickname,gender,phoneNumber,email,weChat,qq,imageUrl,birthDay,manager,description,organization,department,enable,remark FROM sys_user 
-2019-03-20 16:05:39.242 DEBUG 11804 --- [http-nio-8080-exec-7] c.h.dao.system.SysUserMapper.selectList  : ==> Parameters: 
-2019-03-20 16:05:39.254 DEBUG 11804 --- [http-nio-8080-exec-7] c.h.dao.system.SysUserMapper.selectList  : <==      Total: 54
-2019-03-20 17:03:41.047  INFO 5436 --- [main] com.RootApplication                      : Starting RootApplication on KRH05 with PID 5436 (D:\project\IdeaProjects\spbmybatis\controller\api_deploy\target\classes started by g06 in D:\project\IdeaProjects\spbmybatis)
-2019-03-20 17:03:41.050  INFO 5436 --- [main] com.RootApplication                      : No active profile set, falling back to default profiles: default
-2019-03-20 17:03:43.449  INFO 5436 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8308ee7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-03-20 17:03:43.714  INFO 5436 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-03-20 17:03:43.736  INFO 5436 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-03-20 17:03:43.737  INFO 5436 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
-2019-03-20 17:03:43.761  INFO 5436 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-9.0.4\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Tools\Xshell\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk-9.0.4\bin;D:\Tools\Maven\apache-maven-3.3.9\bin;D:\Tools\Git\cmd;D:\Tools\Git\bin;D:\Tools\mysql\mysql-5.7.17-winx64\bin;C:\WINDOWS\System32\OpenSSH\;D:\Tools\nodejs\;E:\Tools\TortoiseGit\bin;C:\Users\G06.KRH\AppData\Local\Microsoft\WindowsApps;.]
-2019-03-20 17:03:43.861  INFO 5436 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-03-20 17:03:43.861  INFO 5436 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2741 ms
-2019-03-20 17:03:44.105  INFO 5436 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2019-03-20 17:03:44.674  INFO 5436 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-2019-03-20 17:03:44.798  INFO 5436 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-03-20 17:03:44.990  INFO 5436 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2019-03-20 17:03:45.007  INFO 5436 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2019-03-20 17:03:45.042  INFO 5436 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2019-03-20 17:03:45.215  INFO 5436 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-03-20 17:03:45.221  INFO 5436 --- [main] com.RootApplication                      : Started RootApplication in 4.769 seconds (JVM running for 5.761)
-2019-03-20 17:03:45.298  INFO 5436 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-03-20 17:03:45.299  INFO 5436 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-03-20 17:03:45.308  INFO 5436 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
-2019-03-20 17:07:02.516  INFO 8588 --- [main] com.RootApplication                      : Starting RootApplication on KRH05 with PID 8588 (D:\project\IdeaProjects\spbmybatis\controller\api_deploy\target\classes started by g06 in D:\project\IdeaProjects\spbmybatis)
-2019-03-20 17:07:02.519  INFO 8588 --- [main] com.RootApplication                      : No active profile set, falling back to default profiles: default
-2019-03-20 17:07:05.149  INFO 8588 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$93b48b47] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-03-20 17:07:05.424  INFO 8588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-03-20 17:07:05.458  INFO 8588 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-03-20 17:07:05.458  INFO 8588 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
-2019-03-20 17:07:05.464  INFO 8588 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-9.0.4\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Tools\Xshell\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk-9.0.4\bin;D:\Tools\Maven\apache-maven-3.3.9\bin;D:\Tools\Git\cmd;D:\Tools\Git\bin;D:\Tools\mysql\mysql-5.7.17-winx64\bin;C:\WINDOWS\System32\OpenSSH\;D:\Tools\nodejs\;E:\Tools\TortoiseGit\bin;C:\Users\G06.KRH\AppData\Local\Microsoft\WindowsApps;.]
-2019-03-20 17:07:05.553  INFO 8588 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-03-20 17:07:05.553  INFO 8588 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2969 ms
-2019-03-20 17:07:05.791  INFO 8588 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2019-03-20 17:07:06.381  INFO 8588 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-2019-03-20 17:07:06.504  INFO 8588 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-03-20 17:07:06.685  INFO 8588 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2019-03-20 17:07:06.702  INFO 8588 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2019-03-20 17:07:06.734  INFO 8588 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2019-03-20 17:07:06.891  INFO 8588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-03-20 17:07:06.896  INFO 8588 --- [main] com.RootApplication                      : Started RootApplication in 4.886 seconds (JVM running for 5.75)
-2019-03-20 17:07:15.941  INFO 8588 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-03-20 17:07:15.941  INFO 8588 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-03-20 17:07:15.949  INFO 8588 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2019-03-20 17:09:26.812  INFO 1692 --- [main] com.RootApplication                      : Starting RootApplication on KRH05 with PID 1692 (D:\project\IdeaProjects\spbmybatis\controller\api_deploy\target\classes started by g06 in D:\project\IdeaProjects\spbmybatis)
-2019-03-20 17:09:26.814  INFO 1692 --- [main] com.RootApplication                      : No active profile set, falling back to default profiles: default
-2019-03-20 17:09:29.215  INFO 1692 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f73b5a01] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-03-20 17:09:29.483  INFO 1692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-03-20 17:09:29.524  INFO 1692 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-03-20 17:09:29.524  INFO 1692 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
-2019-03-20 17:09:29.530  INFO 1692 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-9.0.4\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Tools\Xshell\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk-9.0.4\bin;D:\Tools\Maven\apache-maven-3.3.9\bin;D:\Tools\Git\cmd;D:\Tools\Git\bin;D:\Tools\mysql\mysql-5.7.17-winx64\bin;C:\WINDOWS\System32\OpenSSH\;D:\Tools\nodejs\;E:\Tools\TortoiseGit\bin;C:\Users\G06.KRH\AppData\Local\Microsoft\WindowsApps;.]
-2019-03-20 17:09:29.629  INFO 1692 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-03-20 17:09:29.630  INFO 1692 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2707 ms
-2019-03-20 17:09:29.874  INFO 1692 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2019-03-20 17:09:30.530  INFO 1692 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-03-20 17:09:30.709  INFO 1692 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2019-03-20 17:09:30.723  INFO 1692 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2019-03-20 17:09:30.736  INFO 1692 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2019-03-20 17:09:30.927  INFO 1692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-03-20 17:09:30.932  INFO 1692 --- [main] com.RootApplication                      : Started RootApplication in 4.523 seconds (JVM running for 5.323)
-2019-03-20 17:09:47.279  INFO 1692 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-03-20 17:09:47.279  INFO 1692 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-03-20 17:09:47.288  INFO 1692 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
-2019-03-20 17:11:05.317  INFO 10732 --- [main] com.RootApplication                      : Starting RootApplication on KRH05 with PID 10732 (D:\project\IdeaProjects\spbmybatis\controller\api_deploy\target\classes started by g06 in D:\project\IdeaProjects\spbmybatis)
-2019-03-20 17:11:05.319  INFO 10732 --- [main] com.RootApplication                      : No active profile set, falling back to default profiles: default
-2019-03-20 17:11:07.762  INFO 10732 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$81815ce] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-03-20 17:11:08.079  INFO 10732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-03-20 17:11:08.113  INFO 10732 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-03-20 17:11:08.113  INFO 10732 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
-2019-03-20 17:11:08.119  INFO 10732 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-9.0.4\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Tools\Xshell\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk-9.0.4\bin;D:\Tools\Maven\apache-maven-3.3.9\bin;D:\Tools\Git\cmd;D:\Tools\Git\bin;D:\Tools\mysql\mysql-5.7.17-winx64\bin;C:\WINDOWS\System32\OpenSSH\;D:\Tools\nodejs\;E:\Tools\TortoiseGit\bin;C:\Users\G06.KRH\AppData\Local\Microsoft\WindowsApps;.]
-2019-03-20 17:11:08.208  INFO 10732 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-03-20 17:11:08.208  INFO 10732 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2836 ms
-2019-03-20 17:11:08.451  INFO 10732 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2019-03-20 17:11:09.104  INFO 10732 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-03-20 17:11:09.289  INFO 10732 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2019-03-20 17:11:09.301  INFO 10732 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2019-03-20 17:11:09.315  INFO 10732 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2019-03-20 17:11:09.521  INFO 10732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-03-20 17:11:09.525  INFO 10732 --- [main] com.RootApplication                      : Started RootApplication in 4.637 seconds (JVM running for 5.417)
-2019-03-20 17:11:09.612  INFO 10732 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-03-20 17:11:09.612  INFO 10732 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-03-20 17:11:09.620  INFO 10732 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2019-03-20 17:11:38.996  INFO 4592 --- [main] com.RootApplication                      : Starting RootApplication on KRH05 with PID 4592 (D:\project\IdeaProjects\spbmybatis\controller\api_deploy\target\classes started by g06 in D:\project\IdeaProjects\spbmybatis)
-2019-03-20 17:11:38.999  INFO 4592 --- [main] com.RootApplication                      : No active profile set, falling back to default profiles: default
-2019-03-20 17:11:41.547  INFO 4592 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$93c39565] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-03-20 17:11:41.828  INFO 4592 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-03-20 17:11:41.861  INFO 4592 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-03-20 17:11:41.862  INFO 4592 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
-2019-03-20 17:11:41.868  INFO 4592 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-9.0.4\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Tools\Xshell\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk-9.0.4\bin;D:\Tools\Maven\apache-maven-3.3.9\bin;D:\Tools\Git\cmd;D:\Tools\Git\bin;D:\Tools\mysql\mysql-5.7.17-winx64\bin;C:\WINDOWS\System32\OpenSSH\;D:\Tools\nodejs\;E:\Tools\TortoiseGit\bin;C:\Users\G06.KRH\AppData\Local\Microsoft\WindowsApps;.]
-2019-03-20 17:11:41.956  INFO 4592 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-03-20 17:11:41.956  INFO 4592 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2858 ms
-2019-03-20 17:11:42.208  INFO 4592 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2019-03-20 17:11:42.765  INFO 4592 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-2019-03-20 17:11:42.875  INFO 4592 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-03-20 17:11:43.049  INFO 4592 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2019-03-20 17:11:43.063  INFO 4592 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2019-03-20 17:11:43.099  INFO 4592 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2019-03-20 17:11:43.254  INFO 4592 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-03-20 17:11:43.259  INFO 4592 --- [main] com.RootApplication                      : Started RootApplication in 4.759 seconds (JVM running for 5.743)
-2019-03-20 17:12:23.972  INFO 4592 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-03-20 17:12:23.972  INFO 4592 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-03-20 17:12:23.981  INFO 4592 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2019-03-20 17:13:42.055  INFO 8760 --- [main] com.RootApplication                      : Starting RootApplication on KRH05 with PID 8760 (D:\project\IdeaProjects\spbmybatis\controller\api_deploy\target\classes started by g06 in D:\project\IdeaProjects\spbmybatis)
-2019-03-20 17:13:42.058  INFO 8760 --- [main] com.RootApplication                      : No active profile set, falling back to default profiles: default
-2019-03-20 17:13:44.283  INFO 8760 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9e284620] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-03-20 17:13:44.571  INFO 8760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-03-20 17:13:44.604  INFO 8760 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-03-20 17:13:44.604  INFO 8760 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
-2019-03-20 17:13:44.610  INFO 8760 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-9.0.4\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Tools\Xshell\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk-9.0.4\bin;D:\Tools\Maven\apache-maven-3.3.9\bin;D:\Tools\Git\cmd;D:\Tools\Git\bin;D:\Tools\mysql\mysql-5.7.17-winx64\bin;C:\WINDOWS\System32\OpenSSH\;D:\Tools\nodejs\;E:\Tools\TortoiseGit\bin;C:\Users\G06.KRH\AppData\Local\Microsoft\WindowsApps;.]
-2019-03-20 17:13:44.704  INFO 8760 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-03-20 17:13:44.704  INFO 8760 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2606 ms
-2019-03-20 17:13:44.953  INFO 8760 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2019-03-20 17:13:45.511  INFO 8760 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-2019-03-20 17:13:45.627  INFO 8760 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-03-20 17:13:45.807  INFO 8760 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2019-03-20 17:13:45.823  INFO 8760 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2019-03-20 17:13:45.855  INFO 8760 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2019-03-20 17:13:46.014  INFO 8760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-03-20 17:13:46.022  INFO 8760 --- [main] com.RootApplication                      : Started RootApplication in 4.321 seconds (JVM running for 5.517)
-2019-03-20 17:14:07.505  INFO 8760 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-03-20 17:14:07.505  INFO 8760 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-03-20 17:14:07.513  INFO 8760 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2019-03-20 17:16:11.076 DEBUG 8760 --- [http-nio-8080-exec-7] c.h.d.s.SysUserMapper.selectList_COUNT   : ==>  Preparing: SELECT count(0) FROM sys_user 
-2019-03-20 17:16:11.094 DEBUG 8760 --- [http-nio-8080-exec-7] c.h.d.s.SysUserMapper.selectList_COUNT   : ==> Parameters: 
-2019-03-20 17:16:11.112 DEBUG 8760 --- [http-nio-8080-exec-7] c.h.d.s.SysUserMapper.selectList_COUNT   : <==      Total: 1
-2019-03-20 17:16:11.114 DEBUG 8760 --- [http-nio-8080-exec-7] c.h.dao.system.SysUserMapper.selectList  : ==>  Preparing: SELECT id,username,password,nickname,gender,phoneNumber,email,weChat,qq,imageUrl,birthDay,manager,description,organization,department,enable,remark FROM sys_user 
-2019-03-20 17:16:11.114 DEBUG 8760 --- [http-nio-8080-exec-7] c.h.dao.system.SysUserMapper.selectList  : ==> Parameters: 
-2019-03-20 17:16:11.125 DEBUG 8760 --- [http-nio-8080-exec-7] c.h.dao.system.SysUserMapper.selectList  : <==      Total: 54
-2019-03-20 18:57:27.416  INFO 10724 --- [main] com.RootApplication                      : Starting RootApplication on KRH05 with PID 10724 (D:\project\IdeaProjects\spbmybatis\controller\api_deploy\target\classes started by g06 in D:\project\IdeaProjects\spbmybatis)
-2019-03-20 18:57:27.445  INFO 10724 --- [main] com.RootApplication                      : No active profile set, falling back to default profiles: default
-2019-03-20 18:57:29.941  INFO 10724 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$512fb714] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-03-20 18:57:30.221  INFO 10724 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-03-20 18:57:30.262  INFO 10724 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-03-20 18:57:30.263  INFO 10724 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
-2019-03-20 18:57:30.269  INFO 10724 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-9.0.4\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Tools\Xshell\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk-9.0.4\bin;D:\Tools\Maven\apache-maven-3.3.9\bin;D:\Tools\Git\cmd;D:\Tools\Git\bin;D:\Tools\mysql\mysql-5.7.17-winx64\bin;C:\WINDOWS\System32\OpenSSH\;D:\Tools\nodejs\;E:\Tools\TortoiseGit\bin;C:\Users\G06.KRH\AppData\Local\Microsoft\WindowsApps;.]
-2019-03-20 18:57:30.377  INFO 10724 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-03-20 18:57:30.378  INFO 10724 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2838 ms
-2019-03-20 18:57:30.627  INFO 10724 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2019-03-20 18:57:31.203  INFO 10724 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-2019-03-20 18:57:31.315  INFO 10724 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-03-20 18:57:31.493  INFO 10724 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2019-03-20 18:57:31.508  INFO 10724 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2019-03-20 18:57:31.541  INFO 10724 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2019-03-20 18:57:31.711  INFO 10724 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-03-20 18:57:31.715  INFO 10724 --- [main] com.RootApplication                      : Started RootApplication in 4.836 seconds (JVM running for 5.691)
-2019-03-20 18:57:36.235  INFO 10724 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-03-20 18:57:36.235  INFO 10724 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-03-20 18:57:36.246  INFO 10724 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-03-24 21:56:14.584  INFO 12848 --- [main] com.RootApplication                      : Starting RootApplication on DESKTOP-EK0EQFD with PID 12848 (D:\workspaces\IdeaProjects\spbmybatis\controller\api_deploy\target\classes started by hongyan in D:\workspaces\IdeaProjects\spbmybatis)
+2019-03-24 21:56:14.647  INFO 12848 --- [main] com.RootApplication                      : No active profile set, falling back to default profiles: default
+2019-03-24 21:56:18.005  INFO 12848 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8ac7bae1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 21:56:18.515  INFO 12848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-24 21:56:18.557  INFO 12848 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-24 21:56:18.557  INFO 12848 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-24 21:56:18.570  INFO 12848 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\Environment\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Java\Environment\jdk1.8.0_144\bin;D:\Java\Environment\jdk1.8.0_144\jre\bin;D:\Java\Maven\apache-maven-3.5.2\bin;E:\PCTools\Player\PBB Reader\x64;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;D:\Tools\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\hongyan\AppData\Local\Microsoft\WindowsApps;;.]
+2019-03-24 21:56:20.166  INFO 12848 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-24 21:56:20.166  INFO 12848 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5410 ms
+2019-03-24 21:56:20.562  INFO 12848 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-03-24 21:56:21.727  INFO 12848 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-03-24 21:56:21.868  INFO 12848 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-24 21:56:22.048  INFO 12848 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-03-24 21:56:22.064  INFO 12848 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-03-24 21:56:22.097  INFO 12848 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-03-24 21:56:22.292  INFO 12848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-24 21:56:22.295  INFO 12848 --- [main] com.RootApplication                      : Started RootApplication in 8.689 seconds (JVM running for 17.462)
+2019-03-24 23:29:50.448  INFO 13216 --- [main] com.RootApplication                      : Starting RootApplication on DESKTOP-EK0EQFD with PID 13216 (D:\workspaces\IdeaProjects\spbmybatis\controller\api_deploy\target\classes started by hongyan in D:\workspaces\IdeaProjects\spbmybatis)
+2019-03-24 23:29:50.451  INFO 13216 --- [main] com.RootApplication                      : No active profile set, falling back to default profiles: default
+2019-03-24 23:29:53.117  INFO 13216 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3327b9af] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 23:29:53.230  WARN 13216 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration$$EnhancerBySpringCGLIB$$e52ede1f]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authWebMvcBoot': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'env.config.oss.path' in value "${env.config.oss.path}"
+2019-03-24 23:29:53.236  INFO 13216 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-03-24 23:29:53.251 ERROR 13216 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration$$EnhancerBySpringCGLIB$$e52ede1f]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authWebMvcBoot': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'env.config.oss.path' in value "${env.config.oss.path}"
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:157) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at com.RootApplication.main(RootApplication.java:13) [classes/:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration$$EnhancerBySpringCGLIB$$e52ede1f]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authWebMvcBoot': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'env.config.oss.path' in value "${env.config.oss.path}"
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:216) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:154) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration$$EnhancerBySpringCGLIB$$e52ede1f]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authWebMvcBoot': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'env.config.oss.path' in value "${env.config.oss.path}"
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1325) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1171) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:392) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1305) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1144) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:602) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.boot.web.server.ErrorPageRegistrarBeanPostProcessor.getRegistrars(ErrorPageRegistrarBeanPostProcessor.java:80) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.server.ErrorPageRegistrarBeanPostProcessor.postProcessBeforeInitialization(ErrorPageRegistrarBeanPostProcessor.java:71) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.server.ErrorPageRegistrarBeanPostProcessor.postProcessBeforeInitialization(ErrorPageRegistrarBeanPostProcessor.java:59) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:414) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1754) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	... 16 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration$$EnhancerBySpringCGLIB$$e52ede1f]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authWebMvcBoot': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'env.config.oss.path' in value "${env.config.oss.path}"
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:304) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:285) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1325) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1171) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:392) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1305) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1144) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	... 41 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration$$EnhancerBySpringCGLIB$$e52ede1f]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authWebMvcBoot': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'env.config.oss.path' in value "${env.config.oss.path}"
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:184) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:300) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	... 64 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authWebMvcBoot': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'env.config.oss.path' in value "${env.config.oss.path}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:380) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:392) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1305) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1144) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider.getIfAvailable(DefaultListableBeanFactory.java:1879) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration.<init>(DispatcherServletAutoConfiguration.java:137) ~[spring-boot-autoconfigure-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration$$EnhancerBySpringCGLIB$$e52ede1f.<init>(<generated>) ~[spring-boot-autoconfigure-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_144]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_144]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:172) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	... 66 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'env.config.oss.path' in value "${env.config.oss.path}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:172) ~[spring-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124) ~[spring-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237) ~[spring-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211) ~[spring-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:851) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1188) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	... 92 common frames omitted
+
+2019-03-24 23:35:42.305  INFO 16500 --- [main] com.RootApplication                      : Starting RootApplication on DESKTOP-EK0EQFD with PID 16500 (D:\workspaces\IdeaProjects\spbmybatis\controller\api_deploy\target\classes started by hongyan in D:\workspaces\IdeaProjects\spbmybatis)
+2019-03-24 23:35:42.310  INFO 16500 --- [main] com.RootApplication                      : No active profile set, falling back to default profiles: default
+2019-03-24 23:35:44.907  INFO 16500 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8ac7bae1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 23:35:45.252  INFO 16500 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-03-24 23:35:45.750  INFO 16500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-24 23:35:45.772  INFO 16500 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-24 23:35:45.772  INFO 16500 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-24 23:35:45.778  INFO 16500 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\Environment\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Java\Environment\jdk1.8.0_144\bin;D:\Java\Environment\jdk1.8.0_144\jre\bin;D:\Java\Maven\apache-maven-3.5.2\bin;E:\PCTools\Player\PBB Reader\x64;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;D:\Tools\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\hongyan\AppData\Local\Microsoft\WindowsApps;;.]
+2019-03-24 23:35:45.883  INFO 16500 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-24 23:35:45.883  INFO 16500 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3510 ms
+2019-03-24 23:35:46.232  WARN 16500 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resourceHandlerMapping' defined in class path resource [com/hong/controller/security/config/AuthWebMvcBoot.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerMapping]: Factory method 'resourceHandlerMapping' threw exception; nested exception is java.lang.IllegalStateException: No ServletContext set
+2019-03-24 23:35:46.236  INFO 16500 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-03-24 23:35:46.238  INFO 16500 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-03-24 23:35:46.277  INFO 16500 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-03-24 23:35:46.288 ERROR 16500 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resourceHandlerMapping' defined in class path resource [com/hong/controller/security/config/AuthWebMvcBoot.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerMapping]: Factory method 'resourceHandlerMapping' threw exception; nested exception is java.lang.IllegalStateException: No ServletContext set
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:627) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:456) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1305) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1144) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at com.RootApplication.main(RootApplication.java:13) [classes/:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerMapping]: Factory method 'resourceHandlerMapping' threw exception; nested exception is java.lang.IllegalStateException: No ServletContext set
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	... 19 common frames omitted
+Caused by: java.lang.IllegalStateException: No ServletContext set
+	at org.springframework.util.Assert.state(Assert.java:73) ~[spring-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.resourceHandlerMapping(WebMvcConfigurationSupport.java:486) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at com.hong.controller.security.config.AuthWebMvcBoot$$EnhancerBySpringCGLIB$$8a4dba35.CGLIB$resourceHandlerMapping$30(<generated>) ~[classes/:na]
+	at com.hong.controller.security.config.AuthWebMvcBoot$$EnhancerBySpringCGLIB$$8a4dba35$$FastClassBySpringCGLIB$$18b5f04.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at com.hong.controller.security.config.AuthWebMvcBoot$$EnhancerBySpringCGLIB$$8a4dba35.resourceHandlerMapping(<generated>) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	... 20 common frames omitted
+

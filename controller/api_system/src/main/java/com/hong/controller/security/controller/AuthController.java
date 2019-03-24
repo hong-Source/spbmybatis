@@ -29,11 +29,10 @@ public class AuthController {
             @ApiResponse(code=432, message="该用户未注册"),
             @ApiResponse(code=433, message="密码错误")})
     private ResponseBean login(@Valid @RequestBody AuthAcountBean authAcountBean) throws Exception {
-        SysUser user = new SysUser();
-//        user = sysUserService.login(authAcountBean.getUsername(), authAcountBean.getPassword());
-//        user.setLastlogintime(new Date());
-//        user.updateById();
-//        sysUserService.loadNameField(Arrays.asList(user));
+        SysUser user = sysUserService.login(authAcountBean.getUsername(), authAcountBean.getPassword());
+        user.setLastLoginTime(new Date());
+        user.updateById();
+        sysUserService.loadNameField(Arrays.asList(user));
         return tokenResponse(user);
     }
 

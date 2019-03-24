@@ -6,10 +6,12 @@ import com.baomidou.mybatisplus.extension.activerecord.Model;
 import java.time.LocalDate;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableField;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 import lombok.experimental.Accessors;
 
 import java.io.Serializable;
+import java.util.Date;
 
 /**
  * <p>
@@ -37,6 +39,9 @@ public class SysUser extends Model<SysUser> {
 
     private Boolean gender;
 
+    @TableField("IDNumber")
+    private String IDNumber;
+
     @TableField("phoneNumber")
     private String phoneNumber;
 
@@ -63,6 +68,10 @@ public class SysUser extends Model<SysUser> {
 
     private Boolean enable;
 
+    @TableField("lastLoginTime")
+//    @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss",timezone="GMT+8")
+    private Date lastLoginTime;
+
     private String remark;
 
     @Override
@@ -73,23 +82,25 @@ public class SysUser extends Model<SysUser> {
     @Override
     public String toString() {
         return "SysUser{" +
-        "id=" + id +
-        ", username=" + username +
-        ", password=" + password +
-        ", nickname=" + nickname +
-        ", gender=" + gender +
-        ", phoneNumber=" + phoneNumber +
-        ", email=" + email +
-        ", weChat=" + weChat +
-        ", qq=" + qq +
-        ", imageUrl=" + imageUrl +
-        ", birthDay=" + birthDay +
-        ", manager=" + manager +
-        ", description=" + description +
-        ", organization=" + organization +
-        ", department=" + department +
-        ", enable=" + enable +
-        ", remark=" + remark +
-        "}";
+                "id='" + id + '\'' +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", nickname='" + nickname + '\'' +
+                ", gender=" + gender +
+                ", IDNumber='" + IDNumber + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                ", email='" + email + '\'' +
+                ", weChat='" + weChat + '\'' +
+                ", qq='" + qq + '\'' +
+                ", imageUrl='" + imageUrl + '\'' +
+                ", birthDay=" + birthDay +
+                ", manager='" + manager + '\'' +
+                ", description='" + description + '\'' +
+                ", organization='" + organization + '\'' +
+                ", department='" + department + '\'' +
+                ", enable=" + enable +
+                ", lastLoginTime=" + lastLoginTime +
+                ", remark='" + remark + '\'' +
+                '}';
     }
 }
